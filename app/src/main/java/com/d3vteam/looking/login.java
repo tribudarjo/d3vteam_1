@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class login extends AppCompatActivity {
-    Button button, button2;
+    Button button;
 
     EditText editText, editText3;
 
@@ -20,7 +20,6 @@ public class login extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.editText);
         editText3 = (EditText) findViewById(R.id.editText3);
         button = (Button) findViewById(R.id.button);
-        button2 = (Button) findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
 
