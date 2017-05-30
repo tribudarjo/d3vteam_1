@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Beranda"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_Daftar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Rental Mobil" />
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_About"
+                android:icon="@drawable/ic_info"
+                android:title="About" />
+            <item
+                android:id="@+id/btnLogout"
+                android:icon="@drawable/ic_info"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
