@@ -60,7 +60,7 @@ public class login extends AppCompatActivity {
         // Check if user is already logged in or not
         if (session.isLoggedIn()) {
             // User is already logged in. Take him to main activity
-            Intent intent = new Intent(com.d3vteam.looking.activity.login.this, DashboardActivity.class);
+            Intent intent = new Intent(login.this, DashboardActivity.class);
             startActivity(intent);
             finish();
         }
