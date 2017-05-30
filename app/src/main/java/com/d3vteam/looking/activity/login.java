@@ -28,7 +28,8 @@ import java.util.Map;
 
 public class login extends AppCompatActivity {
 
-    private static final String TAG = Register.class.getSimpleName();
+
+    private static final String TAG = com.d3vteam.looking.activity.Register.class.getSimpleName();
     private Button btnLogin;
     private Button btnLinkToRegister;
     private EditText inputNis;
@@ -36,7 +37,6 @@ public class login extends AppCompatActivity {
     private ProgressDialog pDialog;
     private SessionManager session;
     private SQLiteHandler db;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

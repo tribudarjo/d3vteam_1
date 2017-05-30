@@ -141,7 +141,7 @@ public class login extends AppCompatActivity {
                         db.addUser(name, nis, uid, created_at);
 
                         // Launch main activity
-                        Intent intent = new Intent(com.d3vteam.looking.activity.login.this,
+                        Intent intent = new Intent(login.this,
                                 DashboardActivity.class);
                         startActivity(intent);
                         finish();

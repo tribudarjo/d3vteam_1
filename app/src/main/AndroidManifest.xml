@@ -28,9 +28,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.login" />
+        <activity android:name="com.d3vteam.looking.login" />
         <activity android:name=".activity.Register" />
-        <activity android:name=".activity.MainActivity"> </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.DashboardActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

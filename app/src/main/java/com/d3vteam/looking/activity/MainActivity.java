@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtName = (TextView) findViewById(R.id.nama_member);
+        txtName = (TextView) findViewById(R.id.nis);
         txtEmail = (TextView) findViewById(R.id.email);
         btnLogout = (Button) findViewById(R.id.btnLogout);
 

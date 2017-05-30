@@ -93,7 +93,7 @@ public class Register extends AppCompatActivity {
 
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),
-                        login.class);
+                        com.d3vteam.looking.login.class);
                 startActivity(i);
                 finish();
             }
@@ -139,11 +139,11 @@ public class Register extends AppCompatActivity {
                         // Inserting row in users table
                         db.addUser(name, nis, uid, created_at);
 
-                        Toast.makeText(getApplicationContext(), "User Registrasi Berasih. Try login now!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Registrasi Berasih. Silahkan login!", Toast.LENGTH_LONG).show();
 
                         // Launch login activity
                         Intent intent = new Intent(
-                                Register.this, login.class);
+                                Register.this, com.d3vteam.looking.login.class);
                         startActivity(intent);
                         finish();
                     } else {
