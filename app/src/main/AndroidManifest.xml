@@ -31,6 +31,11 @@
         <activity android:name="com.d3vteam.looking.login" />
         <activity android:name=".activity.Register" />
         <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.DaftarFragment"/>
+            <activity android:name=".activity.DaftarRental"/>
+        <activity android:name=".activity.DaftarMobil"/>
+        <activity android:name=".activity.Daftarmobil1"/>
+        <activity android:name=".activity.Daftarmobil2"/>
         <activity
             android:name=".activity.DashboardActivity"
             android:label="@string/app_name"

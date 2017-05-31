@@ -127,7 +127,7 @@ public class DashboardActivity extends AppCompatActivity
         if (id == R.id.nav_Beranda) {
             fragment = new HomeFragment();
         } else if (id == R.id.nav_Daftar) {
-            fragment = new DaftarFragment();
+            startActivity(new Intent(getApplicationContext(),DaftarFragment.class));
         } else if (id == R.id.nav_About) {
             fragment = new AboutFragment();
         } else if (id == R.id.btnLogout) {
