@@ -139,7 +139,7 @@ public class Register extends AppCompatActivity {
                         // Inserting row in users table
                         db.addUser(name, nis, uid, created_at);
 
-                        Toast.makeText(getApplicationContext(), "Registrasi Berasih. Silahkan login!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Registrasi Berhasil. Silahkan login!", Toast.LENGTH_LONG).show();
 
                         // Launch login activity
                         Intent intent = new Intent(
